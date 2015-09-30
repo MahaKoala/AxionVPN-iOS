@@ -1,0 +1,317 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		836B4D101BB5B3CB00515CD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836B4D0F1BB5B3CB00515CD1 /* AppDelegate.swift */; };
+		836B4D121BB5B3CB00515CD1 /* RegionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836B4D111BB5B3CB00515CD1 /* RegionsViewController.swift */; };
+		836B4D171BB5B3CB00515CD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 836B4D151BB5B3CB00515CD1 /* Main.storyboard */; };
+		836B4D191BB5B3CB00515CD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 836B4D181BB5B3CB00515CD1 /* Assets.xcassets */; };
+		836B4D1C1BB5B3CB00515CD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 836B4D1A1BB5B3CB00515CD1 /* LaunchScreen.storyboard */; };
+		836B4D261BB5BA9900515CD1 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836B4D251BB5BA9900515CD1 /* SwiftyJSON.swift */; };
+		836B4D281BB5D08600515CD1 /* KeychainWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836B4D271BB5D08600515CD1 /* KeychainWrapper.swift */; };
+		836B4D2B1BB5D16F00515CD1 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836B4D2A1BB5D16F00515CD1 /* SettingsViewController.swift */; };
+		836B4D2D1BB5E4A100515CD1 /* AxionAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836B4D2C1BB5E4A100515CD1 /* AxionAPI.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		836B4D0C1BB5B3CB00515CD1 /* AxionVPN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AxionVPN.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		836B4D0F1BB5B3CB00515CD1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		836B4D111BB5B3CB00515CD1 /* RegionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegionsViewController.swift; sourceTree = "<group>"; };
+		836B4D161BB5B3CB00515CD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		836B4D181BB5B3CB00515CD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		836B4D1B1BB5B3CB00515CD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		836B4D1D1BB5B3CB00515CD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		836B4D251BB5BA9900515CD1 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		836B4D271BB5D08600515CD1 /* KeychainWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainWrapper.swift; sourceTree = "<group>"; };
+		836B4D2A1BB5D16F00515CD1 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		836B4D2C1BB5E4A100515CD1 /* AxionAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AxionAPI.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		836B4D091BB5B3CB00515CD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		836B4D031BB5B3CB00515CD1 = {
+			isa = PBXGroup;
+			children = (
+				836B4D0E1BB5B3CB00515CD1 /* AxionVPN */,
+				836B4D0D1BB5B3CB00515CD1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		836B4D0D1BB5B3CB00515CD1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				836B4D0C1BB5B3CB00515CD1 /* AxionVPN.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		836B4D0E1BB5B3CB00515CD1 /* AxionVPN */ = {
+			isa = PBXGroup;
+			children = (
+				836B4D291BB5D08C00515CD1 /* Vendor */,
+				836B4D0F1BB5B3CB00515CD1 /* AppDelegate.swift */,
+				836B4D111BB5B3CB00515CD1 /* RegionsViewController.swift */,
+				836B4D2A1BB5D16F00515CD1 /* SettingsViewController.swift */,
+				836B4D151BB5B3CB00515CD1 /* Main.storyboard */,
+				836B4D181BB5B3CB00515CD1 /* Assets.xcassets */,
+				836B4D1A1BB5B3CB00515CD1 /* LaunchScreen.storyboard */,
+				836B4D1D1BB5B3CB00515CD1 /* Info.plist */,
+				836B4D2C1BB5E4A100515CD1 /* AxionAPI.swift */,
+			);
+			path = AxionVPN;
+			sourceTree = "<group>";
+		};
+		836B4D291BB5D08C00515CD1 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				836B4D251BB5BA9900515CD1 /* SwiftyJSON.swift */,
+				836B4D271BB5D08600515CD1 /* KeychainWrapper.swift */,
+			);
+			name = Vendor;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		836B4D0B1BB5B3CB00515CD1 /* AxionVPN */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 836B4D201BB5B3CB00515CD1 /* Build configuration list for PBXNativeTarget "AxionVPN" */;
+			buildPhases = (
+				836B4D081BB5B3CB00515CD1 /* Sources */,
+				836B4D091BB5B3CB00515CD1 /* Frameworks */,
+				836B4D0A1BB5B3CB00515CD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AxionVPN;
+			productName = AxionVPN;
+			productReference = 836B4D0C1BB5B3CB00515CD1 /* AxionVPN.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		836B4D041BB5B3CB00515CD1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Axion;
+				TargetAttributes = {
+					836B4D0B1BB5B3CB00515CD1 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 836B4D071BB5B3CB00515CD1 /* Build configuration list for PBXProject "AxionVPN" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 836B4D031BB5B3CB00515CD1;
+			productRefGroup = 836B4D0D1BB5B3CB00515CD1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				836B4D0B1BB5B3CB00515CD1 /* AxionVPN */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		836B4D0A1BB5B3CB00515CD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				836B4D1C1BB5B3CB00515CD1 /* LaunchScreen.storyboard in Resources */,
+				836B4D191BB5B3CB00515CD1 /* Assets.xcassets in Resources */,
+				836B4D171BB5B3CB00515CD1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		836B4D081BB5B3CB00515CD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				836B4D121BB5B3CB00515CD1 /* RegionsViewController.swift in Sources */,
+				836B4D281BB5D08600515CD1 /* KeychainWrapper.swift in Sources */,
+				836B4D2D1BB5E4A100515CD1 /* AxionAPI.swift in Sources */,
+				836B4D261BB5BA9900515CD1 /* SwiftyJSON.swift in Sources */,
+				836B4D2B1BB5D16F00515CD1 /* SettingsViewController.swift in Sources */,
+				836B4D101BB5B3CB00515CD1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		836B4D151BB5B3CB00515CD1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				836B4D161BB5B3CB00515CD1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		836B4D1A1BB5B3CB00515CD1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				836B4D1B1BB5B3CB00515CD1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		836B4D1E1BB5B3CB00515CD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		836B4D1F1BB5B3CB00515CD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		836B4D211BB5B3CB00515CD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AxionVPN/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.axionvpn.AxionVPN;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		836B4D221BB5B3CB00515CD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AxionVPN/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.axionvpn.AxionVPN;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		836B4D071BB5B3CB00515CD1 /* Build configuration list for PBXProject "AxionVPN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				836B4D1E1BB5B3CB00515CD1 /* Debug */,
+				836B4D1F1BB5B3CB00515CD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		836B4D201BB5B3CB00515CD1 /* Build configuration list for PBXNativeTarget "AxionVPN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				836B4D211BB5B3CB00515CD1 /* Debug */,
+				836B4D221BB5B3CB00515CD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 836B4D041BB5B3CB00515CD1 /* Project object */;
+}
